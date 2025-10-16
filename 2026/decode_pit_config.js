@@ -2,7 +2,7 @@ var config_data = `
 {
     "dataFormat": "tsv",
     "title": "Decode Scouting 2026",
-    "page_title": "DECODE",
+    "page_title": "Decode",
     "pitConfig": "true",
     "prematch": [
         {

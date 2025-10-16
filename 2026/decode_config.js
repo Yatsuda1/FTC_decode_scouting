@@ -60,7 +60,7 @@ var config_data = `
       "type": "clickable_image",
       "filename": "2026/field_image.png",
       "clickRestriction": "one",
-      "allowableResponses": "6 7 18 19 30 31 42 43 54 55 66 67",
+      "allowableResponses": "13, 14, 15, 25, 26, 27, 28, 29, 30, 35, 36, 37, 38, 39, 40, 41, 42, 47, 48, 49, 50, 51",
       "shape": "circle 5 black red true"
     }
   ],
