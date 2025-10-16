@@ -27,75 +27,43 @@ var config_data = `
             "type": "radio",
             "choices": {
                 "s": "Swerve<br>",
-                "t": "Tank<br>",
                 "m": "Mechanum<br>",
+                "t": "Tank<br>",
                 "o": "Other"
             },
             "defaultValue": "s"
         },
         {
-            "name": "Can Intake Algae From",
+            "name": "Can Intake Artifacts From",
             "code": "IAF",
             "type": "radio",
             "choices": {
                 "g": "Ground<br>",
-                "r": "Reef<br>",
+                "h": "Human Player<br>",
                 "b": "Both<br>",
                 "n": "None"
             },
-            "defaultValue": "r"
+            "defaultValue": "n"
         },
          {
-            "name": "Can Process Algae?",
+            "name": "Can Score Artifacts?",
             "code": "ASP",
             "type": "bool"
         },
          {
-            "name": "Can Score Algae In Net?",
+            "name": "Can Sort Artifacts?",
             "code": "ASN",
             "type": "bool"
         },
         {
-            "name": "Can Intake Coral From",
-            "code": "ICF",
+            "name": "Endgame",
+            "code": "prk",
             "type": "radio",
             "choices": {
-                "g": "Ground<br>",
-                "f": "Coral Station<br>",
-                "b": "Both<br>",
-                "n": "None"
-            },
-            "defaultValue": "f"
-        },
-        {
-            "name": "Can Score Coral L1?",
-            "code": "Cl1",
-            "type": "bool"
-        },
-        {
-            "name": "Can Score Coral L2?",
-            "code": "CL2",
-            "type": "bool"
-        },
-        {
-            "name": "Can Score Coral L3?",
-            "code": "CL3",
-            "type": "bool"
-        },
-        {
-            "name": "Can Score Coral L4?",
-            "code": "CL4",
-            "type": "bool"
-        },
-        {
-            "name": "Barge Hang",
-            "code": "hng",
-            "type": "radio",
-            "choices": {
-                "d": "Deep Hang<br>",
-                "s": "Shallow Hang<br>",
-                "b": "Both<br>",
-                "n": "None"
+                "n": "No Mechanism<br>",
+                "s": "Stilts<br>",
+                "e": "Everybot<br>",
+                "o": "Other<br>",
             }
         },
         {
