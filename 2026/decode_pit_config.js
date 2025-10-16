@@ -64,6 +64,7 @@ var config_data = `
                 "s": "Stilts<br>",
                 "e": "Everybot<br>",
                 "o": "Other<br>"
+            }
         },
         {
             "name": "Best Auto",
