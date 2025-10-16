@@ -1,8 +1,8 @@
 var config_data = `
 {
     "dataFormat": "tsv",
-    "title": "Reefscape Scouting 2025",
-    "page_title": "Reefscape",
+    "title": "Decode Scouting 2026",
+    "page_title": "DECODE",
     "pitConfig": "true",
     "prematch": [
         {
