@@ -63,9 +63,8 @@ var config_data = `
                 "n": "No Mechanism<br>",
                 "s": "Stilts<br>",
                 "e": "Everybot<br>",
-                "o": "Other<br>",
-            }
-        },
+                "o": "Other<br>"
+        }
         {
             "name": "Best Auto",
             "code": "apc",
