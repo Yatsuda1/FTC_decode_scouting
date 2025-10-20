@@ -61,75 +61,31 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "L4 Coral Scores",
+    { "name": "Purple Artifacts Scored",
       "code": "ac4",
       "type": "counter"
     },
-    { "name": "L3 Coral Scores",
+    { "name": "Green Artifacts Scored",
       "code": "ac3",
-      "type": "counter"
-    },
-    { "name": "L2 Coral Scores",
-      "code": "ac2",
-      "type": "counter"
-    },
-    { "name": "L1 Coral Scores",
-      "code": "ac1",
-      "type": "counter"
-    },
-     { "name": "Coral Drops",
-      "code": "acd",
-      "type": "counter"
-    },
-    { "name": "Processor Scores",
-      "code": "aps",
-      "type": "counter"
-    },
-    { "name": "Net Scores",
-      "code": "ans",
-      "type": "counter"
-    },
-    { "name": "Algae Drops",
-      "code": "ad",
       "type": "counter"
     }
   ],
   "teleop": [
-    { "name": "L4 Coral Scores",
-      "code": "tc4",
+    { "name": "Purple Artifacts Scored",
+      "code": "ac4",
       "type": "counter"
     },
-    { "name": "L3 Coral Scores",
-      "code": "tc3",
+    { "name": "Green Artifacts Scored",
+      "code": "ac3",
       "type": "counter"
     },
-    { "name": "L2 Coral Scores",
-      "code": "tc2",
-      "type": "counter"
-    },
-    { "name": "L1 Coral Scores",
-      "code": "tc1",
-      "type": "counter"
-    },
-        { "name": "Coral Drops",
-      "code": "tcd",
-      "type": "counter"
-    },
-    { "name": "Processor Scores",
-      "code": "tps",
-      "type": "counter"
-    },
-    { "name": "Net Scores",
-      "code": "tns",
-      "type": "counter"
-    },
-    { "name": "Algae Drops",
-      "code": "tad",
-      "type": "counter"
+    { "name": "Defence Timer",
+      "code": "eb",
+      "type": "timer"
     }
   ],
   "endgame": [
-    { "name": "Barge Timer",
+    { "name": "Endgame Timer",
       "code": "eb",
       "type": "timer"
     },
@@ -137,13 +93,14 @@ var config_data = `
       "code": "fs",
       "type":"radio",
       "choices": {
-        "bs": "Shallow Hang<br>",
-        "bd": "Deep Hang<br>",
-        "bp": "Parked<br>",
-        "bf": "Failed Climb<br>",
-        "bx": "Not attempted"
+        "np": "No Park<br>",
+        "xp": "Solo Park<br>",
+        "sf": "Solo Fail<br>",
+        "dp": "Double Park<br>",
+        "bf": "Double Fail<br>",
+        "NA": "Not Attempted<br>"
       },
-      "defaultValue": "2"
+      "defaultValue": "NA"
     }
   ],
   "postmatch": [
