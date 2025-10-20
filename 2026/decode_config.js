@@ -12,12 +12,6 @@ var config_data = `
       "maxSize": 5,
       "required": "true"
     },
-    { "name": "Event",
-      "code": "e",
-      "type": "event",
-      "defaultValue": "",
-      "required": "false"
-    },
     { "name": "Match Level",
       "code": "l",
       "type": "level",
