@@ -39,13 +39,14 @@ var config_data = `
         "r2": "Red-2",
         "b2": "Blue-2"
       },
-      "required":"false"
+      "required":"true"
     },
     { "name": "Team #",
       "code": "t",
       "type": "team",
       "min": 1,
       "max": 999999
+      "required":"true"
     },
     { "name": "Auto Start Position",
       "code": "as",
@@ -54,6 +55,7 @@ var config_data = `
       "clickRestriction": "one",
       "allowableResponses": "13 14 15 25 26 27 28 29 30 35 36 37 38 39 40 41 42 47 48 49 50 51",
       "shape": "circle 5 black red true"
+      "required":"true"
     }
   ],
   "auton": [
