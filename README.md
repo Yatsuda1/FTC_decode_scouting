@@ -1,2 +1,2 @@
-# Project-Indigo
- A custom scouting solution for team 5505 made from PWNAGE 2020 ScoutingPASS
+# FTC Scouting
+ A custom scouting solution for FTC Team 11940 made from PWNAGE 2020 ScoutingPASS
