@@ -43,17 +43,15 @@ var config_data = `
         "r1": "Red-1",
         "b1": "Blue-1<br>",
         "r2": "Red-2",
-        "b2": "Blue-2<br>",
-        "r3": "Red-3",
-        "b3": "Blue-3"
+        "b2": "Blue-2<br>"
       },
-      "required":"true"
+      "required":"false"
     },
     { "name": "Team #",
       "code": "t",
       "type": "team",
       "min": 1,
-      "max": 99999
+      "max": 999999
     },
     { "name": "Auto Start Position",
       "code": "as",
