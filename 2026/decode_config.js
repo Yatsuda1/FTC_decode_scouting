@@ -38,8 +38,6 @@ var config_data = `
         "b1": "Blue-1",
         "r2": "Red-2",
         "b2": "Blue-2"
-      },
-      "required":"true"
     },
     {
       { "name": "Team #",
