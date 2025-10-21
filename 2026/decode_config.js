@@ -41,11 +41,13 @@ var config_data = `
       },
       "required":"true"
     },
-    { "name": "Team #",
-      "code": "t",
-      "type": "team",
-      "min": 1,
-      "max": 999999
+    {
+      { "name": "Team #",
+        "code": "t",
+        "type": "team",
+        "min": 1,
+        "max": 999999
+      }
       "required":"true"
     },
     { "name": "Auto Start Position",
