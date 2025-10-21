@@ -39,6 +39,8 @@ var config_data = `
         "r2": "Red-2",
         "b2": "Blue-2"
     },
+    "required": "true"
+    },
     {
       { "name": "Team #",
         "code": "t",
